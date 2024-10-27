@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Lafftacy Raffle Draw Live - Win Amazing Cash Prizes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Join the excitement of the Lafftacy Raffle Draw Live! Discover who will claim the amazing cash prizes. Don't miss your chance to be a lucky winner. Enter now!"/>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="./css/index.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class = "hero">
+    <div class="logos">
+      <img src = "img/logo.png" alt="lafftacy" width="200px">
+      <img src = "img/partner (1).png" alt="partner1" width="200px">
+      <img src = "img/partner (2).png" alt="partner2" width="200px">
+    </div>
+    <div class='content-wrapper'>
+      <h2>LAFFTACY RAFFLE DRAW LIVE!</h2>
+      <p> GET READY TO SEE WHO WILL WALK AWAY WITH AMAZING CASH PRIZES!</p>
+    </div>
+  </div>
+  <div class = "numberInput">
+    <div class = "inner">
+    <input type="text" name="numer" placeholder="Enter number of lucky winners...">
+    <button class="draw">ROLL!!!</button>
+  </div>
+  </div>
+  
+  <div id="display">
+    <img src="img/cancel.svg" class='closeDisplay'>
+    <div class ="inner">
+    <div id="loader"> 
+      <img src = "img/loading.gif" width="300">
+    </div>
+    <div id="allNames">
+    </div>
+  </div>
+  <div class="spacer"></div>
+  </div>
+<footer> 
+<div id="errorMessage"> 
+      <h2> Failed to get data. Please refresh </h2>
+    </div>
+    <h3> Number of Registered Member: <span class = "number"></span></h3>
+
+    <p class="copyright">DESIGNED BY TECHYGROUND DIGITAL SOLUTIONS | +2348161822695</p>
+  </footer>
+<script src="script.js"></script>
+</body>
+
+</html>
